@@ -2,8 +2,8 @@ name: Generate Status Report
 
 on:
   schedule:
-    - cron: '0 15 * * 5'  # Every Friday at 3 PM UTC
-  workflow_dispatch: {}
+    - cron: '0 15 * * 5'
+  workflow_dispatch:
 
 jobs:
   generate-report:

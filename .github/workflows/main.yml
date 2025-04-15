@@ -1,3 +1,0 @@
-git add .github/workflows/generate-status-report.yml
-git commit -m "Fix workflow YAML syntax"
-git push

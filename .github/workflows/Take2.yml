@@ -1,3 +1,3 @@
-git add .github.com/fanna6/RAG-reporting/blob/main/generate-status-report.yml
-git commit -m "Fix YAML syntax and GitHub trigger"
+git add .github/workflows/generate-status-report.yml
+git commit -m "Clean YAML fix for GitHub Actions"
 git push

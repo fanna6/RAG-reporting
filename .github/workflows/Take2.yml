@@ -1,3 +1,3 @@
 git add .github/workflows/generate-status-report.yml
-git commit -m "Working GitHub Action workflow"
+git commit -m "Fix YAML syntax error on line 1"
 git push

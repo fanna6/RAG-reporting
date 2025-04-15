@@ -1,4 +1,4 @@
-# 📊 Automated Status Report Generator
+# 📊 Automated RAG Status Report Generator
 Automatically generate project status reports in PowerPoint format from YAML updates using GitHub Actions and Python.
 ## ✨ Features
 - Reads weekly updates from YAML files

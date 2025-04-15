@@ -6,11 +6,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  generate-report:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Set up Python
@@ -26,7 +26,7 @@ jobs:
       - name: Generate status report
         run: python main.py
 
-      - name: Upload generated report
+      - name: Upload PowerPoint report
         uses: actions/upload-artifact@v3
         with:
           name: status-report
